@@ -10,7 +10,7 @@ import matplotlib
 import socket
 
 # US proxy
-proxy = "gNtcdQ:q3tY3x@176.107.183.100:11870"
+proxy = "login:password@ip:port"
 socket.setdefaulttimeout(10)
 
 
