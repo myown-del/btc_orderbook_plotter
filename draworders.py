@@ -114,7 +114,6 @@ for i in range(int(DURATION/TIMESTEP)):
     else:
         matrix = np.column_stack((matrix, temp_row))
         matrix = cutLowVolume(matrix)
-    print(datetime.datetime.utcfromtimestamp(timestamp_start+i))
     columns.append(datetime.datetime.utcfromtimestamp(timestamp_start+i).strftime('%Y-%m-%d %H:%M:%S'))
     df = pd.DataFrame(matrix, columns=columns, index=rows)
     drawPlot(df)
