@@ -81,7 +81,7 @@ def drawPlot(df):
     plt.plot(range(df.shape[1]), btc_priceline, linewidth=2,  color='#00FF00')
     plt.pause(TIMESTEP)
 
-print("Made by tg: @billyel")
+print("\n\nMade by\ntelegram: @billyel\n\n")
     
 TIMESTEP = 5  # in seconds
 DURATION = 60*60*12  # in seconds
