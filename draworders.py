@@ -16,7 +16,7 @@ socket.setdefaulttimeout(10)
 
 class AppURLopener(urllib.request.FancyURLopener):
     version = "Mozilla/5.0"
-    # TODO: check proxy method
+    # TODO: check proxy func
     proxies = {'https': f"https://{proxy}"}
 
 
